@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: mainFont;
+  src: url("./fonts/DB-Adman-X-Li.ttf");
+}
+
+@font-face {
+  font-family: psl159;
+  src: url("./fonts/DB Adman X Bd.ttf");
+}
+
+* {
+  font-family: mainFont;
+  font-size: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7a7a7a21;
+  border: 0.5px solid #b9c0d46b;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666666;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+@media (max-width: 400px) {
+  * {
+    font-size: 14px;
+  }
+}

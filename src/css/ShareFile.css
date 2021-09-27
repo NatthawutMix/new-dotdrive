@@ -1,0 +1,200 @@
+.sharefile__container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(47, 255, 243, 0.25),
+    0 6px 20px 0 rgba(47, 255, 243, 0.25);
+  border-radius: 15px;
+  height: 70%;
+  width: 60%;
+  background-image: linear-gradient(89.64deg, #017890 -2.17%, #01879b 103.86%);
+  overflow: auto;
+}
+
+.sharefile__title {
+  display: flex;
+  align-items: flex-end;
+  height: 10%;
+}
+
+.sharefile__body {
+  background-color: #ffffff;
+  height: 60%;
+  padding: 20px;
+}
+
+.sharefile__btnshare {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 10%;
+}
+
+.sharefile__link {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 100%;
+  height: 20%;
+}
+
+.sharefile__input {
+  font-weight: mainFont;
+  font-size: 20px;
+  width: 100%;
+  height: 10%;
+  background-color: #e1e1e1;
+  border: none;
+  padding: 10px;
+}
+
+.sharefile__items {
+  margin-top: 2.5%;
+  overflow: auto;
+  height: 87.5%;
+}
+
+.shareFile__getLink {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #7e7e7ea2;
+  padding: 10px;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.sharefile__btnshare__small {
+  display: none;
+}
+
+.sharefile__items::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.sharefile__items::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 15px;
+}
+
+/* Handle */
+.sharefile__items::-webkit-scrollbar-thumb {
+  background: #017d94;
+  border: 0.5px solid #b9c0d46b;
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+.sharefile__items::-webkit-scrollbar-thumb:hover {
+  background: #297e7b;
+}
+
+@media (max-width: 700px) {
+  .sharefile__container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .sharefile__container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
+  .sharefile__container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 360px) {
+
+}
+
+@media (max-height: 700px) {
+  .sharefile__title {
+    height: 15%;
+  }
+
+  .sharefile__body {
+    height: 55%;
+    padding: 15px;
+  }
+}
+
+@media (max-height: 650px) {
+  .sharefile__input {
+    height: 20%;
+  }
+  .sharefile__items {
+    height: 75%;
+  }
+}
+
+@media (max-height: 450px) {
+  .sharefile__container {
+    height: 90%;
+    overflow: auto;
+  }
+  .sharefile__title {
+    height: 15%;
+  }
+
+  .sharefile__body {
+    height: 55%;
+    padding: 10px;
+  }
+
+  .sharefile__btnshare {
+    height: 10%;
+  }
+
+  .sharefile__link {
+    height: 20%;
+  }
+}
+
+@media (max-height: 350px) {
+  .sharefile__container {
+    height: 90%;
+    overflow: auto;
+  }
+  .sharefile__title {
+    height: 20%;
+  }
+
+  .sharefile__body {
+    height: 65%;
+    padding: 10px;
+  }
+
+  .sharefile__btnshare {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sharefile__link {
+    display: none;
+  }
+
+  .sharefile__btnshare__small {
+    display: flex;
+    margin: auto 0 auto 0;
+  }
+}
+
+@media (max-height: 250px) {
+  .sharefile__title > h3 {
+    font-size: 20px;
+  }
+  .sharefile__container > button {
+    padding: 0px;
+  }
+  .sharefile__body {
+    padding: 0 10px 0 10px;
+  }
+}

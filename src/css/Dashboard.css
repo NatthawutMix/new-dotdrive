@@ -1,0 +1,354 @@
+.asidetb td {
+  /* padding-left: 5px; */
+  padding-top: 20px;
+  /* padding-bottom: 10px; */
+  /* vertical-align: middle; */
+  text-align: left;
+  font-size: medium;
+  /* background-color: #54ebe6; */
+  color: Dark;
+  /* white-space: nowrap; */
+
+  /* border: 1px solid #a2484a; */
+}
+
+.icon_folder {
+  color: CadetBlue;
+  width: 15%;
+}
+
+.overflow_1 {
+  margin-left: 10px;
+  white-space: nowrap;
+  /* text-align: left; */
+  width: 210px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* background-color: tomato; */
+}
+
+div.overflow-2 {
+  white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.aside-bottom {
+  /* text-align: center; */
+  font-size: 100%;
+  padding: 0px 0px;
+  background-color: #a4b0b1;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.filelist th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #025074;
+  /* background-color: linear-gradient(90.04deg, #025074 -2.47%, #01BCC3 104.96%); */
+  color: white;
+}
+
+.filelist tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.filelist tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.filelist tr:hover {
+  background-color: #ddd;
+}
+
+.filelist td,
+.filelist th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dashboard_th {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, #025477 -3.94%, #01b6bf 68.83%);
+  color: #ffffff;
+}
+
+/* แบ่งตามสัดส่วน 100% */
+.file_item_name_1 {
+  margin-left: 2%;
+  width: 55%;
+  /* padding-left: 5%; */
+  /* background-color: rgb(190, 132, 122); */
+}
+
+.file_item_name_2 {
+  width: 15%;
+  /* padding-left: 3%; */
+  /* background-color: #a58b8b; */
+}
+
+.file_item_name_3 {
+  width: 15%;
+  /* padding-left: 3%; */
+  /* background-color: rgb(108, 165, 146); */
+}
+
+.file_item_name_4 {  
+  width: 15%;
+  /* padding-left: 3%; */
+  /* background-color: cadetblue; */
+}
+
+.homepage__data {
+  border-radius: 15px;
+  margin: 10px 30px 10px 30px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  box-shadow: 0 4px 8px 0 rgba(141, 141, 141, 0.2),
+    0 6px 20px 0 rgba(153, 153, 153, 0.19);
+}
+
+.file_item_dash {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: inset 0px -1px 0px #e5e5e5;
+}
+
+/* แบ่งตามสัดส่วน 100% */
+.file_item_activity_1 {
+  margin-left: 2%;
+  white-space: nowrap;
+  width: 55%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* background-color: cadetblue; */
+}
+.file_item_activity_2 {
+  width: 15%;
+  padding-left: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* background-color: #a58b8b; */
+}
+.file_item_activity_3 {
+  width: 15%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* background-color: rgb(108, 165, 146); */
+}
+.file_item_activity_4 {
+  width: 15%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* background-color: cadetblue; */
+}
+
+.nondata {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #AFAFAF;
+}
+
+ /* For desktop: */
+ .cards {
+          /* T  R  B  L*/
+  margin: 20px 0px 20px 70px;
+  /* overflow-y: hidden; */
+  /* overflow-x: auto; */
+  grid-template-columns: repeat(3, [col-srart] 1fr [col-end]); /* 1fr 2fr */
+  max-width: 95%;
+  display: grid;
+  grid-row-gap: 2rem;
+}
+.card {
+  background-color: #F2F4FF;
+  border-radius: 15px 15px 15px 15px;
+  color: dark;
+  padding: 20px;
+  /* margin-left: 1%; */
+  height: 100%;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(141, 141, 141, 0.2),
+  0 6px 20px 0 rgba(153, 153, 153, 0.19);
+}
+
+.flex_container  {
+  border-radius: 15px;
+  margin: 10px 30px 10px 30px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  box-shadow: 0 4px 8px 0 rgba(141, 141, 141, 0.2),
+  0 6px 20px 0 rgba(153, 153, 153, 0.19);
+  /* background-color: cornflowerblue; */
+}
+
+.dashboard_list {  /* oldname  homepage_items */
+  /* display: block; */
+  border-radius: 15px;
+  height: 200px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  box-shadow: 0 4px 8px 0 rgba(141, 141, 141, 0.2), 0 6px 20px 0 rgba(153, 153, 153, 0.19);
+  border-radius: 0 0 15px 15px;
+  /* background-color: rgb(179, 127, 90); */
+}
+
+
+/* width */
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #017d94;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+/* /* ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} */
+
+
+/* -------------------- Set Responsive ---------------------------------- */  
+@media (max-width: 1300px) {
+  .cards { 
+    max-width: 100%;
+    grid-template-columns: repeat(1, [col-srart] 1fr [col-end]); /* 1fr 2fr */ 
+    margin-top: 2%;
+    margin-left: 15%;
+    /* background-color: cadetblue; */
+  }
+  .card {
+    height: 100%;
+    /* padding: 10px; */
+  }
+  .overflow_1 {
+    width: 240px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* For: mobileset->max-width=pxchange */
+  /* For: Taplet */
+  .overflow_1 {
+    width: 210px;
+  }
+
+  .filelist th {
+    font-size: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #54ebe6;
+    color: Dark;
+  }
+  .filelist tbody {
+    font-size: 13px;
+    color: Dark;
+  }
+  .file_item_desc {
+    margin-left: 15px;
+    width: 30%;
+  }
+  .file_item_activity {
+    width: 15%;
+    margin-left: 20px;
+  }
+    /* --------S-------- */
+  /* .flex_container  {
+    width: 900px;
+  } */
+  .dashboard_th {
+    width: 900px;
+  }
+  .dashboard_list {
+    width: 900px;
+  } 
+  /* --------E-------- */
+}
+
+@media (max-width: 700px) {
+  .dashboard_th {
+    width: 640px;
+  }
+  .dashboard_list {
+    width: 640px;
+  }
+  .overflow_1 {
+    width: 180px;
+  }
+  .dashboard_th {
+    width: 800px;
+  }
+  .dashboard_list {
+    width: 800px;
+  }
+}
+
+@media (max-width: 414px) {
+  /* For: 0->max=pxchange */
+  /* For: Mobile */
+  .cards { 
+    grid-template-columns: repeat(1, [col-srart] 1fr [col-end]); /* 1fr 2fr */ 
+    max-width: 90%;                                                                         
+    margin-left: 10%;
+    margin-top: 2%;
+    grid-column-gap: 1px;
+    /* background-color: cadetblue; */
+  }
+  .card {
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .dashboard_list {
+    height: 200px;
+  }
+
+  .overflow_1 {
+    width: 150px;
+  }
+
+  .file_item_name_1 {
+    margin-left: 30px;
+    /* width: 10%; */
+  }
+  .file_item_desc {
+    margin-left: 8px;
+    width: 25%;
+  }
+  .file_item_activity {
+    width: 20%;
+    margin-left: 0px;
+  }
+  .dashboard_th {
+    width: 800px;
+  }
+  .dashboard_list {
+    width: 800px;
+  }
+}  
+
+/* -------------------- End Responsive ---------------------------------- */
+

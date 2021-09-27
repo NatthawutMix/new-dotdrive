@@ -1,0 +1,153 @@
+.file__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: inset 0px -1px 0px #e5e5e5;
+}
+
+.file__item2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgba(84, 235, 230, 0.11);
+  box-shadow: inset 0px -1px 0px #e5e5e5;
+}
+
+.file__item__select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 176, 176, 0.4);
+  width: 100%;
+  box-shadow: inset 0px -1px 0px #e5e5e5;
+}
+
+/* .file__item:hover {
+  cursor: pointer;
+  background-color: rgba(84, 235, 230, 0.5);
+} */
+
+/* .file__item__select:hover {
+  cursor: pointer;
+  background: #00b0b0;
+} */
+
+.file__item2:hover {
+  cursor: pointer;
+  background-color: rgba(84, 235, 230, 0.5);
+}
+
+.file__download {
+  margin-right: 20px;
+  color: rgb(0, 89, 255);
+}
+
+.file__download:hover {
+  cursor: pointer;
+  color: rgba(0, 89, 255, 0.623);
+}
+
+.file__delete {
+  margin-right: 20px;
+  color: rgb(243, 21, 21);
+}
+
+.file__delete:hover {
+  color: rgba(243, 21, 21, 0.623);
+  cursor: pointer;
+}
+
+.file__item__desc {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 70%;
+  /* margin-right: 5%; */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.file__label__overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* .file__label__overflow:hover {
+  cursor: pointer;
+} */
+
+.file__by {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.file__date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.file__size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 950px) {
+  .file__item__desc {
+    width: 70%;
+  }
+
+  .file__date {
+    width: 20%;
+  }
+  .file__size {
+    width: 10%;
+  }
+}
+
+@media (max-width: 700px) {
+  .file__item__desc {
+    width: 60%;
+  }
+
+  .file__date {
+    width: 20%;
+  }
+  .file__size {
+    width: 20%;
+  }
+}
+
+@media (max-width: 500px) {
+  .file__container {
+    width: 440px;
+  }
+  .file__item__desc {
+    width: 60%;
+  }
+
+  .file__date {
+    width: 20%;
+  }
+  .file__size {
+    width: 17%;
+    margin-right: 3%;
+  }
+}
